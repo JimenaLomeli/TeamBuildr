@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8BAD5D21320CBB007A96FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BAD5C21320CBB007A96FC /* AppDelegate.swift */; };
+		3A8BAD5F21320CBB007A96FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BAD5E21320CBB007A96FC /* ViewController.swift */; };
+		3A8BAD6221320CBB007A96FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BAD6021320CBB007A96FC /* Main.storyboard */; };
+		3A8BAD6521320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BAD6321320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodeld */; };
+		3A8BAD6721320CBB007A96FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BAD6621320CBB007A96FC /* Assets.xcassets */; };
+		3A8BAD6A21320CBB007A96FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BAD6821320CBB007A96FC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A8BAD5921320CBB007A96FC /* HackMty-TeamBuildr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackMty-TeamBuildr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8BAD5C21320CBB007A96FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A8BAD5E21320CBB007A96FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A8BAD6121320CBB007A96FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A8BAD6421320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HackMty_TeamBuildr.xcdatamodel; sourceTree = "<group>"; };
+		3A8BAD6621320CBB007A96FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A8BAD6921320CBB007A96FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A8BAD6B21320CBB007A96FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8BAD5621320CBB007A96FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8BAD5021320CBB007A96FC = {
+			isa = PBXGroup;
+			children = (
+				3A8BAD5B21320CBB007A96FC /* HackMty-TeamBuildr */,
+				3A8BAD5A21320CBB007A96FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8BAD5A21320CBB007A96FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BAD5921320CBB007A96FC /* HackMty-TeamBuildr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8BAD5B21320CBB007A96FC /* HackMty-TeamBuildr */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BAD5C21320CBB007A96FC /* AppDelegate.swift */,
+				3A8BAD5E21320CBB007A96FC /* ViewController.swift */,
+				3A8BAD6021320CBB007A96FC /* Main.storyboard */,
+				3A8BAD6621320CBB007A96FC /* Assets.xcassets */,
+				3A8BAD6821320CBB007A96FC /* LaunchScreen.storyboard */,
+				3A8BAD6B21320CBB007A96FC /* Info.plist */,
+				3A8BAD6321320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodeld */,
+			);
+			path = "HackMty-TeamBuildr";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8BAD5821320CBB007A96FC /* HackMty-TeamBuildr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8BAD6E21320CBB007A96FC /* Build configuration list for PBXNativeTarget "HackMty-TeamBuildr" */;
+			buildPhases = (
+				3A8BAD5521320CBB007A96FC /* Sources */,
+				3A8BAD5621320CBB007A96FC /* Frameworks */,
+				3A8BAD5721320CBB007A96FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HackMty-TeamBuildr";
+			productName = "HackMty-TeamBuildr";
+			productReference = 3A8BAD5921320CBB007A96FC /* HackMty-TeamBuildr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8BAD5121320CBB007A96FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jimena Lomeli";
+				TargetAttributes = {
+					3A8BAD5821320CBB007A96FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A8BAD5421320CBB007A96FC /* Build configuration list for PBXProject "HackMty-TeamBuildr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8BAD5021320CBB007A96FC;
+			productRefGroup = 3A8BAD5A21320CBB007A96FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8BAD5821320CBB007A96FC /* HackMty-TeamBuildr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8BAD5721320CBB007A96FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8BAD6A21320CBB007A96FC /* LaunchScreen.storyboard in Resources */,
+				3A8BAD6721320CBB007A96FC /* Assets.xcassets in Resources */,
+				3A8BAD6221320CBB007A96FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8BAD5521320CBB007A96FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8BAD6521320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodeld in Sources */,
+				3A8BAD5F21320CBB007A96FC /* ViewController.swift in Sources */,
+				3A8BAD5D21320CBB007A96FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A8BAD6021320CBB007A96FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8BAD6121320CBB007A96FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A8BAD6821320CBB007A96FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8BAD6921320CBB007A96FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8BAD6C21320CBB007A96FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A8BAD6D21320CBB007A96FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A8BAD6F21320CBB007A96FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HackMty-TeamBuildr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimena.HackMty-TeamBuildr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A8BAD7021320CBB007A96FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HackMty-TeamBuildr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jimena.HackMty-TeamBuildr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8BAD5421320CBB007A96FC /* Build configuration list for PBXProject "HackMty-TeamBuildr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8BAD6C21320CBB007A96FC /* Debug */,
+				3A8BAD6D21320CBB007A96FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8BAD6E21320CBB007A96FC /* Build configuration list for PBXNativeTarget "HackMty-TeamBuildr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8BAD6F21320CBB007A96FC /* Debug */,
+				3A8BAD7021320CBB007A96FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A8BAD6321320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A8BAD6421320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodel */,
+			);
+			currentVersion = 3A8BAD6421320CBB007A96FC /* HackMty_TeamBuildr.xcdatamodel */;
+			path = HackMty_TeamBuildr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A8BAD5121320CBB007A96FC /* Project object */;
+}
